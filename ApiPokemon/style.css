@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff4500;
+    font-size: 28px;
+}
+
+#searchForm {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#searchForm label {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#pokemonInput {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+}
+
+#buscarPokemon {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+#buscarPokemon:hover {
+    background-color: #ff5722;
+}
+
+#pokemonInfo {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+#nombre {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+#altura, #peso {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #555;
+}
